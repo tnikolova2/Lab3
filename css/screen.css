@@ -191,6 +191,7 @@ img, audio, video {
   http://www.modularscale.com/?22&px&1.667&web&text
 */
 
+
 html {
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
@@ -198,9 +199,82 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+body{
+  font-family: 'Roboto Condensed', 'Garamond', sans-serif;
+  padding-left: 50px;
+  padding-right: 40px;
+  background-color: #524F4A;
+}
+
 label {
   display: block;
+  font-family: "Courier New", Courier, monospace;
 }
+
+h1{
+  font-family: Impact, sans-serif;
+  text-align: center;
+  color: silver;
+}
+input {
+  box-sizing:border-box;
+  width: 100%;
+  border-color: #C3B4B4;
+  height: 50px;
+  padding: 25px;
+  font-family: 'Crimson Text', serif;
+  background-color: #858078;
+  text-align: center;
+}
+
+#input-age-verification, #input-email {
+  width: 40%;
+  margin: 0 auto;
+  color:lightgrey;
+}
+
+#input-submit {
+  width: 30%;
+  margin: 0 auto;
+
+
+}
+
+input[type="checkbox"]{
+  width: auto;
+  height: auto;
+  float: left;
+  display: inline;
+}
+
+p {
+  text-align: center;
+  font-family:"Comic Sans MS", cursive, sans-serif;
+  padding: 25px;
+  color: lightgrey;
+}
+
+form li {
+  padding: 10px;
+}
+
+h1 {
+  font-size: 1.5em;
+  padding: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    min-height: 100%;
+  }
+
+  input[type="submit"], input[type="email"] {
+    font-size: 6vw;
+    width: 100%;
+	text-align: center;
+  }
+}
+
 
 /* ===== LAYOUT STYLES ====== */
 
