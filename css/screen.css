@@ -199,7 +199,7 @@ html {
   text-rendering: optimizeLegibility;
 }
 
-body{
+body {
   font-family: 'Roboto Condensed', 'Garamond', sans-serif;
   padding-left: 50px;
   padding-right: 40px;
@@ -211,12 +211,13 @@ label {
   font-family: "Courier New", Courier, monospace;
 }
 
-h1{
+h1 {
   font-family: Impact, sans-serif;
   text-align: center;
   color: #696969;
   text-shadow: 10px 10px 10px #999;
 }
+
 input {
   box-sizing:border-box;
   width: 100%;
@@ -227,6 +228,7 @@ input {
   background-color: #D7CFCF;
   text-align: center;
 }
+
 #input-email {
   width: 40%;
   margin: 0 auto;
@@ -245,15 +247,14 @@ input {
   margin: 0 auto;
 }
 
-input[type="checkbox"]{
+input[type="checkbox"] {
   width: auto;
   height: auto;
   float: left;
   display: inline;
-
 }
 
-input[type="submit"]{
+input[type="submit"] {
   color:#696969;
   font-family: Impact, sans-serif;
   text-align: center;
